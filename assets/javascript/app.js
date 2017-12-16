@@ -91,7 +91,7 @@ $(document).ready(function() {
         
         
       }
-      $(".notans").html(`<img class="gif img-responsive" src="${gif[pos-1]}">`)
+      $(".notans").html(`<img class="gif" src="${gif[pos-1]}">`)
       timeoutID1=setTimeout(display,4000)
       startover();
     
@@ -113,7 +113,7 @@ $(document).ready(function() {
            $(".btn1").hide();
            $(".answer").html(`Out of Time!`);
            $(".correctAns").html(`The correct answer is: ${questions[pos-1][5]}`);
-           $(".notans").html(`<img class="gif img-responsive" src="${gif[pos-1]}">`)
+           $(".notans").html(`<img class="gif" src="${gif[pos-1]}">`)
            timeoutID=setTimeout(display, 4000);
            startover();  
          }  
@@ -155,7 +155,7 @@ $(document).ready(function() {
       ch4 = questions[pos][4];
       $(".btn1").show();
       $(".question").html(`${question}`);
-      $(".answer").html(`<img class="quesimg img-responsive" src="${ima[pos]}" >`)
+      $(".answer").html(`<img class="quesimg" src="${ima[pos]}" >`)
       
       $("#bt1").html(ch1);
       $("#bt2").html(ch2);
