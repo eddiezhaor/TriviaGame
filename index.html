@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">  
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Rubik+Mono+One" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 first">
+               <img class="myimg"src="assets/images/Picture1.png" alt=""> 
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-12 col-sm-12 col-xs-12 time">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 question">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 button">
+                <button type="button" class="btn btn-large btn-block btn-default btnStart" onclick="document.getElementById('sound1').play();" >Start</button>
+                <div class="row answer"></div>
+                <div class="row correctAns"></div>
+                <div class="row notans"></div>
+                <div class="row restart"></div>
+                <div class="row ">
+                    <button class="btn1" id="bt1"></button>
+                </div>
+              
+                <div class="row">
+                    <button class="btn1" id="bt2"></button>
+                </div>
+                <div class="row">
+                    <button class="btn1" id="bt3"></button>
+                </div>
+                <div class="row">
+                    <button class="btn1" id="bt4"></button>
+                </div>
+                
+            </div>
+       
+        </div>
+        <audio id="sound1" src="assets/images/background.mp3" preload="auto"></audio>
+            
+       
+        
+       
+    </div>
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+    
+</body>
+</html>
